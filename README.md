@@ -47,7 +47,7 @@ The wiring diagram illustrates:
 ## How It Works
 
 1. The humidity sensor measures the surrounding air humidity.
-2. The Arduino reads the sensor value.
+2. The ESP32 reads the sensor value.
 3. If humidity exceeds the configured threshold:
    * Fan turns ON.
 4. If humidity drops below the threshold:
@@ -72,7 +72,7 @@ Required libraries:
 2. Open the `.ino` file in Arduino IDE.
 3. Install required libraries.
 4. Connect the hardware according to the wiring diagram.
-5. Upload the sketch to the Arduino board.
+5. Upload the sketch to the ESP32 board.
 
 ## Results
 
