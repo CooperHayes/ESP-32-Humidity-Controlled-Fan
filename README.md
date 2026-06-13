@@ -28,7 +28,7 @@ The goal of the project is to provide a simple, low-cost environmental control t
 | 220 Ω Resistor                 | 1        |
 | 10 kΩ Resistor                 | 1        |
 | Power Supply                   | 1        |
-| Jumper Wires                   | Various  |
+| Jumper Wires                   | 16       |
 | Breadboard (prototype stage)   | 1        |
 
 ## Wiring
