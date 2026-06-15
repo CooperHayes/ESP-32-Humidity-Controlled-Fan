@@ -42,7 +42,7 @@ The wiring diagram illustrates:
 * Resistor placement
 * OLED display connections
 * Arduino pin assignments
-* Flyback Diode placement
+* Flyback diode placement
 
 
 ## How It Works
