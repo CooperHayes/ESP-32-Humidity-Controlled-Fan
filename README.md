@@ -38,10 +38,11 @@ A complete wiring diagram is provided in the repository documentation. Refer to 
 The wiring diagram illustrates:
 
 * Humidity sensor connections
-* Fan driver (MOSFET) circuitry
+* MOSFET connections
 * Resistor placement
 * OLED display connections
 * Arduino pin assignments
+* Flyback Diode placement
 
 
 ## How It Works
@@ -50,7 +51,7 @@ The wiring diagram illustrates:
 2. The ESP32 reads the sensor value.
 3. If humidity exceeds the configured threshold:
    * Fan turns ON.
-4. If humidity drops below the threshold:
+4. If humidity does not exceed the threshold:
    * Fan turns OFF.
 5. The cycle repeats continuously.
 
@@ -80,8 +81,8 @@ The system successfully controlled a fan based on humidity readings, demonstrati
 
 ## Future Improvements
 
-* Data logging to SD card
-* Adjustable threshold via buttons
+* Digital alerts via email
+* Adjustable threshold via buttons or potentiometer
 * Mobile app integration
 * Pulse Width Modulation for accurate control
 
@@ -91,5 +92,6 @@ Through this project I learned:
 
 * Reading environmental sensors with ESP32
 * Controlling higher-current devices using MOSFETs
+* Formatting and displaying data on OLED displays
 * Implementing threshold-based automation
 * Hardware troubleshooting and circuit design
