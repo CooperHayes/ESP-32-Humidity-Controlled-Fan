@@ -20,7 +20,7 @@ The goal of the project is to provide a simple, low-cost environmental control t
 
 | Component                      | Quantity |
 | ------------------------------ | -------- |
-| ESP32 Controlller              | 1        |
+| ESP32 Microcontrolller         | 1        |
 | .96 SSD1306 OLED Display       | 1        |
 | DHT11 or DHT22 Humidity Sensor | 1        |
 | Bare Wire 5V Fan               | 1        |
@@ -41,7 +41,7 @@ The wiring diagram illustrates:
 * MOSFET connections
 * Resistor placement
 * OLED display connections
-* Arduino pin assignments
+* ESP32 pin assignments
 * Flyback diode placement
 
 
